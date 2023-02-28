@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+min-height: 1080px;
+min-width: 1080px;
+ background-image:linear-gradient(180deg, #ffffff00 0, rgba(12, 0, 0, 0.3) 0),url("ramdan 1.jpg");
+background-attachment:fixed;    
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+
+  }
+  .background>h2{
+      color: blue;
+      font-size: 80px;
+      padding: 50px;
+      text-align: center;
+      text-shadow: 4px 7px 0px #000000;
+
+  }
+  .first{
+      margin-bottom: 50px;
+      padding: 270px;
+      display: flex;
+      text-align: center;
+      align-items: center;
+flex-direction: row-reverse;
+justify-content: center;
+    }
+  .first>a>h1{
+    margin: 20px;
+background-color: rgb(10, 60, 60);
+      padding: 30px;
+      width: 190px;
+      color: rgb(243, 7, 7);
+      border: 2px solid gold;
+  }
+  .first>a>h1:hover:active{
+      color: rgb(89, 0, 255);
+      background-color: white;}
+    
+
